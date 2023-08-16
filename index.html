@@ -6,7 +6,10 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
     <link rel="stylesheet" href="style.css"/>
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Proyecto Mascotas</title>
 </head>
 <body>
     
@@ -72,28 +75,21 @@
     </nav>
 
     <section class="hero is-medium is-link">
-        <div class="hero-body is-flex is-justify-content-space-around">
-            <div class="hero-left is-flex is-flex-direction-column is-align-content-center">
-                <p class="title is-2">
-                    PET FRIENDLY
-                </p>
-                <p class="subtitle is-4">
-                    "Se la persona que tu perro cree que eres"
-                </p>
-                </div>
-                <div class="hero-rigth">
-                <figure class="image">
-                    <img alt='imagen de perro' src="Img/dog-img.png"/>
-                </figure>
-            </div>
-        </div>
+      <div class="hero-body is-flex is-flex-direction-column">
+        <p class="titulo-ppal">
+        PET FRIENDLY
+        </p>
+        <p class="subtitle-ppal-hero">
+        "Se la persona que tu perro cree que eres"
+        </p>
+      </div>
     </section>
 
     <div class="container mt-5">
     <div class="columns">
 
         <div class="column is-5">
-          <figure>
+          <figure class="image is-3by4">
             <img alt="imagen de perro columna izquierda" src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"/>
           </figure>
         </div>
@@ -103,17 +99,17 @@
             <div class="columns is-multiline">
 
                 <div class="column is-6">
-                    <figure>
+                    <figure class="image is-square">
                         <img alt="imagen de perro columna derecha 1" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80"/>
                 </figure>
                 </div>
                 <div class="column is-6">
-                    <figure>
+                    <figure class="image is-square">
                         <img alt="imagen de perro columna derecha 2" src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=385&q=80"/>
                     </figure>
                 </div>
                 <div class="column is-12">
-                    <figure>
+                    <figure class="image is-16by9">
                         <img alt="imagen de perro columna derecha 3" src="https://images.freeimages.com/images/large-previews/aa3/nansen-the-dog-1560665.jpg"/>
                     </figure>
                 </div>
@@ -126,13 +122,258 @@
     <p class="title is-3 has-text-centered">Carrousel de productos</p>
 
 
+    <section class="mt-6">
+      <div class="container is-flex is-justify-content-space-between">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://www.pedigree.com.ar/cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf1506/files/2022-09/7797453001519-product-image-1.png"
+                alt="Paquete-Pedigree"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="https://logodownload.org/wp-content/uploads/2019/09/pedigree-logo-5.png"
+                    alt="Logo-Pedigree"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Pedigree</p>
+                <p class="subtitle is-6">@Pedigreear</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://www.purina.com.ar/sites/default/files/styles/card_450px/public/2023-04/dog-chow-adulto-pollo-front.png.webp?itok=TtYx6ivr"
+                alt="Paquete-DogChow"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="https://www.purina.com.ar/themes/custom/purina/dogchow/assets/images/logo/logo.webp"
+                    alt="Logo DogChow"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Dog Chow</p>
+                <p class="subtitle is-6">@Dogchowar</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://animall.com.ar/5962/alimento-raza-perros-adultos-sabor-carne-x-21kg.jpg"
+                alt="Paquete-Raza"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="https://www.alimentoraza.com/assets/img/logo.png"
+                    alt="Logo-Raza"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Raza</p>
+                <p class="subtitle is-6">@alimentoraza</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaAxSTgoprNr6VyY5URtOoJ7PVgU8yuKYIaQ&usqp=CAU"
+                alt="Paquete Royal Canin"
+              />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img
+                    src="data:image/png;base64,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"
+                    alt="Royal-Canin-Logo"
+                  />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">Royal Canin</p>
+                <p class="subtitle is-6">@Royalcaninar</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              nec iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+              <a href="#">#responsive</a>
+              <br />
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+ 
+
+  <div class="containter">
+ 
+    <div class="imagen-fondo-form mt-4"></div>
+
+    <h3 class="title is-3 has-text-centered">Contactanos:</h3>
+
+    <form class="form-container">
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Sus datos</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control is-expanded has-icons-left">
+              <input class="input" type="text" placeholder="Nombre">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control is-expanded has-icons-left has-icons-right">
+              <input class="input is-success" type="email" placeholder="E-mail"/>
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label"></div>
+        <div class="field-body">
+          <div class="field is-expanded">
+            <div class="field has-addons">
+              <p class="control">
+                <a class="button is-static">
+                  +54
+                </a>
+              </p>
+              <p class="control is-expanded">
+                <input class="input" type="tel" placeholder="Su telefono de contacto">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Departmento</label>
+        </div>
+        <div class="field-body">
+          <div class="field is-narrow">
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select>
+                  <option>Calidad</option>
+                  <option>Marketing</option>
+                  <option>Ventas</option>
+                  <option>RRHH</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Consulta</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" placeholder="Explica como podemos ayudarte"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <!-- Left empty for spacing -->
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control mb-4">
+              <button class="button is-primary">
+                Enviar mensaje
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </div>
 
 
 
 
-
-
-
+<script src="script.js"></script>
 
 </body>
 </html>

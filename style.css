@@ -1,0 +1,19 @@
+.imagen-fondo-form{
+    background-image: url("https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGV0JTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    height: 20vh;
+    background-repeat: no-repeat;
+}
+
+.titulo-ppal{
+    font-family: 'Pangolin', cursive;
+    font-size: 10vh;
+    margin-left: 15vh;
+}
+
+.subtitle-ppal-hero{
+    font-family: 'Pangolin', cursive;
+    font-size: 3vh;
+    margin-left: 30vh;
+}
+
